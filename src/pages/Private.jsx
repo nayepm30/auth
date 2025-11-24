@@ -12,7 +12,6 @@ export default function Private() {
     await logout();
     dispatch(logoutUser());
 
-    // 🚀 Redirigir al login después de cerrar sesión
     navigate("/login");
   };
 
